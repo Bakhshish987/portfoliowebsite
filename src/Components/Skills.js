@@ -30,8 +30,8 @@ const Skills = ({ skill }) => {
     'AWS': <SiAmazonaws />,
     'Jupyter': <SiJupyter />,
     'PyTorch': <SiPytorch />,
-    'R': <SiR />
-    'GCP': <SiGooglecloud />
+    'R': <SiR />,
+    'GCP': <SiGooglecloud />,
     'Power BI': <SiPowerbi />
   };
 
