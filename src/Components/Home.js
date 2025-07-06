@@ -12,8 +12,8 @@ const Home = () => {
       <div className='HomePage'>
 
         <div className='HomeText'>
-          <h1>Hi There!</h1>
-          <h1>I'M <b>DEVANSH SAHNI</b></h1>
+          <h1>Hello!</h1>
+          <h1>I'm <b>Bakhshish Sethi</b></h1>
           <Typed/>   
         </div>
 
@@ -27,7 +27,7 @@ const Home = () => {
 
       <div className='AboutPage'>
         <div className='AboutText'>
-          <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
+          <h1 className='AboutTextHeading'>Brief Introduction</h1>
           <p>
             I love the process of changing a raw idea into a website or a product 
             that impacts lives. 
