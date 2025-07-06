@@ -12,8 +12,8 @@ const Home = () => {
       <div className='HomePage'>
 
         <div className='HomeText'>
-          <h1>Hi There!</h1>
-          <h1>I'M <b>BAKHSHISH SETHI</b></h1>
+          <h1>Hello!</h1>
+          <h1>I'm <b>Bakhshish Sethi</b></h1>
           <Typed />
         </div>
 
@@ -27,7 +27,7 @@ const Home = () => {
 
       <div className='AboutPage'>
         <div className='AboutText'>
-          <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
+          <h1 className='AboutTextHeading'>Introduction</h1>
           <p>
             I love transforming raw data into powerful insights and building ML-based tools that actually make a difference.
             I'm currently pursuing a <b>Bachelor of Science in Computer Science</b> at the University of Alberta, specializing in <b>Data Science and Machine Learning</b>.<br /><br />
