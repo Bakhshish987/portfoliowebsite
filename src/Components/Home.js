@@ -31,7 +31,7 @@ const Home = () => {
           <p>
             I enjoy transforming data into actionable insights and building tools that solve real-world problems.
             I’m passionate about applying <b>Data Science</b> and <b>ML</b> to meaningful projects that drive impact.<br /><br />
-            I’m proficient in <b>Python</b> and <b>SQL</b>, and have hands-on experience with libraries like <b>pandas</b>, <b>scikit-learn</b>, and <b>PyTorch</b>.<br /><br />
+            I’m proficient in <b>Python</b> and <b>SQL</b>, and have hands-on experience with libraries and frameworks like <b>pandas</b>, <b>scikit-learn</b>, and <b>PyTorch</b>.<br /><br />
             I’m continuously learning and expanding into areas like <b>cloud computing</b> (AWS), <b>data visualization</b> (Tableau), and <b>big data</b> tools.<br /><br />
             And yes, I run on coffee <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>
           </p>
