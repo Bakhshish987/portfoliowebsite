@@ -16,7 +16,7 @@ const Projects = () => {
       <div className='project'>
         <ProjectBox projectPhoto={TorontoReal} projectName="TorontoRentalInsights" />
         <ProjectBox projectPhoto={ForecastIQNew} projectName="ForecastIQ" />
-        <ProjectBox projectPhoto={TrustIQNew} projectName="TrustGuard" />
+        <ProjectBox projectPhoto={TrustIQNew} projectName="TrustIQ" />
         <ProjectBox projectPhoto={Infinity2} projectName="Infinity2" />
         <ProjectBox projectPhoto={AlignIQNew} projectName="AlignIQ" />
         <ProjectBox projectPhoto={Dashboard3} projectName="RevenueDashboard" />
