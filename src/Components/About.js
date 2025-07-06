@@ -35,6 +35,10 @@ const About = () => {
         <Skills skill='Pandas' />
         <Skills skill='NumPy' />
         <Skills skill='Scikit-learn' />
+        <Skills skill='Matplotlib' />
+        <Skills skill='Jupyter Notebook' />
+        <Skills skill='TensorFlow' />
+        <Skills skill='PyTorch' />
         <Skills skill='MySQL' />
         <Skills skill='Tableau' />
         <Skills skill='Excel' />
