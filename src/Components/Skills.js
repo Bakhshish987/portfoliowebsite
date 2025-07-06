@@ -9,7 +9,8 @@ import {
   SiMysql,
   SiVercel,
   SiJupyter,
-  SiPytorch
+  SiPytorch,
+  SiR
 } from "react-icons/si";
 
 const Skills = ({ skill }) => {
@@ -26,7 +27,8 @@ const Skills = ({ skill }) => {
     'Vercel': <SiVercel />,
     'AWS': <SiAmazonaws />,
     'Jupyter': <SiJupyter />,
-    'PyTorch': <SiPytorch />
+    'PyTorch': <SiPytorch />,
+    'R': <SiR />
   };
 
   return (
