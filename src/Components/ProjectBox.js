@@ -20,7 +20,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     WigglesGithub: "https://github.com/DevanshSahni/Wiggles",
     WigglesWebsite: "https://wiggles.vercel.app/",
 
-    ForecastIQDesc: "A real-time stock prediction tool using Prophet, RSI, and trend indicators. Built with Streamlit and hosted live, it includes forecasting, download options, and residual diagnostics.",
+    ForecastIQDesc: "A real-time stock prediction tool using live Yahoo Finance data & Facebook Prophet for time series forecasting. Built with Streamlit and hosted live.",
     ForecastIQGithub: "https://github.com/Bakhshish987/forecastiq",
     ForecastIQWebsite: "https://forecastiq.streamlit.app",
 
@@ -28,11 +28,11 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     AlignIQGithub: "https://github.com/Bakhshish987/aligniq",
     AlignIQWebsite: "https://aligniq-v2.streamlit.app",
 
-    TrustGuardDesc: "A fake review detection app built using XGBoost, SMOTE, and SHAP. It flags suspicious reviews and explains predictions visually using SHAP interpretability.",
+    TrustIQDesc: "A fake review detection app built using XGBoost, SMOTE, and SHAP. It flags suspicious reviews and explains predictions visually using SHAP interpretability.",
     TrustGuardGithub: "https://github.com/Bakhshish987/trustguard",
     TrustGuardWebsite: "https://trustguard.streamlit.app",
 
-    RevenueDashboardDesc: "An interactive Tableau dashboard showing 2023 revenue, net earnings, and trends. It includes monthly highlights, subcategory breakdowns, and YoY insights.",
+    RevenueDashboardDesc: "An interactive Tableau dashboard showing revenue, net earnings, and trends. It includes monthly highlights & YoY insights.",
     RevenueDashboardGithub: "",
     RevenueDashboardWebsite: "https://public.tableau.com/app/profile/bakhshish.sethi/viz/RevenueNetEarningsDashboard2023",
 
