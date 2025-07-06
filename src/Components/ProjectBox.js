@@ -36,7 +36,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     WigglesGithub: "https://github.com/DevanshSahni/Wiggles",
     WigglesWebsite: "https://wiggles.vercel.app/",
 
-    ForecastIQDesc: "A real-time stock prediction tool using live Yahoo Finance data & Facebook Prophet for time series forecasting. Built with Streamlit and hosted live.",
+    ForecastIQDesc: "A real-time stock price prediction tool using live Yahoo Finance data & Facebook Prophet model for time series forecasting. Built with Streamlit and hosted live.",
     ForecastIQGithub: "https://github.com/Bakhshish987/forecastiq",
     ForecastIQWebsite: "https://forecastiq.streamlit.app",
 
@@ -56,7 +56,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     Infinity2Github: "",
     Infinity2Website: "https://docs.google.com/spreadsheets/d/1wZdq4eWcVjC5UgUevMuR8zWISwHjx7N9m3lmM1x-6cs/edit?usp=sharing",
 
-    TorontoRentalInsightsDesc: "A data-driven case study exploring rental prices and affordability trends in Toronto. Visualized using Tableau with filters for property type and location.",
+    TorontoRentalInsightsDesc: "A data-driven case study exploring rental prices and affordability trends in Toronto. Visualized using Tableau with maps and filters for property type.",
     TorontoRentalInsightsGithub: "https://github.com/Bakhshish987/toronto-rental-dashboard",
     TorontoRentalInsightsWebsite: "https://public.tableau.com/app/profile/bakhshish.sethi/viz/TorontoRentalInsightsDashboard",
 
