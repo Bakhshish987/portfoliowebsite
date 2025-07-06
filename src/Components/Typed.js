@@ -8,7 +8,7 @@ const Typed = () => {
         options={{
           strings: [
             'Data Analyst',
-            'Business Analyst'
+            'Business Analyst',
             'Data Scientist',
             'Machine Learning Developer'
           ],
