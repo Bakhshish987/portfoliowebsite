@@ -9,49 +9,44 @@ const About = () => {
     <>
       <div className='AboutPage'>
         <div className='AboutText'>
-          <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
+          <h1 className='AboutTextHeading'>Get to <b>know</b> me!</h1>
           <p>
-            Hi, my name is <b>Devansh Sahni</b> and I am from New Delhi, India.
-            I'm a <b>MERN stack web developer</b> and a final year college student pursuing <b>BTech in CSE</b>. <br/><br/>
-            I have done an internship as a <b>software developer</b> at GoalFi which is a fintech startup.
-            I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
-            I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
-            Apart from coding I love to do photography, you can check out some of my shots here <a href="https://www.instagram.com/devansh_sahni_/?hl=en" target='_blank'>Instagram.</a>
+            Hi, my name is <b>Bakhshish Sethi</b> and I’m originally from India, currently studying in Canada.
+            I'm a <b>Data Science & Machine Learning</b> student at the University of Alberta, graduating in <b>May 2026</b>. <br/><br/>
+            I’ve worked as a <b>Data Science Intern</b> at United Worldwide Couriers and have also contributed to data analytics in the financial sector.
+            My interests lie in building ML-powered applications that solve real-world problems — check out some of my projects in the Projects section. <br/><br/>
+            I’m <b>actively seeking</b> full-time opportunities in Data Analytics, Data Science, or AI starting Summer 2026. Let’s connect — links are in the footer!
           </p>
         </div>
 
         <div>
           <Tilt>
-              <Lottie 
+            <Lottie 
               className="illustration" 
               animationData={Coder} 
               loop={true} 
             />
           </Tilt>
         </div>
-
       </div>
       
       <h1 className='SkillsHeading'>Professional Skillset</h1>
       <div className='skills'>
-        
-        <Skills skill='React' />
-        <Skills skill='Node' />
-        <Skills skill='Express' />
-        <Skills skill='MongoDb' />
+        <Skills skill='Python' />
+        <Skills skill='Pandas' />
+        <Skills skill='NumPy' />
+        <Skills skill='Scikit-learn' />
+        <Skills skill='SQL' />
+        <Skills skill='Tableau' />
+        <Skills skill='Excel' />
+        <Skills skill='Streamlit' />
         <Skills skill='Git' />
-        <Skills skill='Github' />
-        <Skills skill='Javascript' />
-        <Skills skill='C++' />
-        <Skills skill='Postman' />
-        <Skills skill='Figma' />
+        <Skills skill='GitHub' />
         <Skills skill='Vercel' />
-        <Skills skill='Npm' />
-        <Skills skill='Bootstrap'/>
-        
+        <Skills skill='AWS' />
       </div>
     </>
   )
 }
 
-export default About
+export default About;
