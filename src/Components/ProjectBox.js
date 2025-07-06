@@ -3,6 +3,22 @@ import { FaGithub } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
+
+  const displayNames = {
+    Tindog: "Tindog",
+    RogFree: "RogFree",
+    Newsletter: "Newsletter Signup",
+    Wiggles: "Wiggles",
+    ForecastIQ: "ForecastIQ",
+    AlignIQ: "AlignIQ",
+    TrustIQ: "TrustGuard",
+    RevenueDashboard: "Revenue & Earnings Dashboard",
+    Infinity2: "Infinity 50 Portfolio",
+    TorontoRentalInsights: "Toronto Rental Market Case Study",
+    FraudDetection: "Credit Card Fraud Detection",
+    HousePricePredictor: "House Price Prediction (Lasso)"
+  };
+
   const desc = {
     TindogDesc: "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
     TindogGithub: "https://github.com/DevanshSahni/tindog",
@@ -43,15 +59,14 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     TorontoRentalInsightsDesc: "A data-driven case study exploring rental prices and affordability trends in Toronto. Visualized using Tableau with filters for property type and location.",
     TorontoRentalInsightsGithub: "https://github.com/Bakhshish987/toronto-rental-dashboard",
     TorontoRentalInsightsWebsite: "https://public.tableau.com/app/profile/bakhshish.sethi/viz/TorontoRentalInsightsDashboard",
-    
+
     FraudDetectionDesc: "A classification project using XGBoost to detect fraudulent credit card transactions. Includes SMOTE, feature scaling, and precision-focused evaluation.",
     FraudDetectionGithub: "https://github.com/Bakhshish987/fraud-detection",
     FraudDetectionWebsite: "https://fraud-detection.streamlit.app",
-    
+
     HousePricePredictorDesc: "A linear and lasso regression model for predicting housing prices based on multiple features. Shows model metrics and residuals interactively.",
     HousePricePredictorGithub: "https://github.com/Bakhshish987/house-price-regression",
     HousePricePredictorWebsite: "https://house-price-app.streamlit.app"
-
   };
 
   let show = '';
@@ -64,7 +79,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       <img className='projectPhoto' src={projectPhoto} alt="Project display" />
       <div>
         <br />
-        <h3>{projectName}</h3>
+        <h3>{displayNames[projectName] || projectName}</h3>
         <br />
         {desc[projectName + 'Desc']}
         <br />
