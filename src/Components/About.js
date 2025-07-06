@@ -37,6 +37,7 @@ const About = () => {
         <Skills skill='Scikit-learn' />
         <Skills skill='MySQL' />
         <Skills skill='Tableau' />
+        <Skills skill='Power BI' />
         <Skills skill='Excel' />
         <Skills skill='PyTorch' />
         <Skills skill='R' />
@@ -44,6 +45,7 @@ const About = () => {
         <Skills skill='Streamlit' />
         <Skills skill='Git' />
         <Skills skill='AWS' />
+        <Skills skill='GCP' />
       </div>
     </>
   )
