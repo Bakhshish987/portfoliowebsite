@@ -38,35 +38,35 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
 
     ForecastIQDesc: "A real-time stock price prediction tool using live Yahoo Finance data & Facebook Prophet model for time series forecasting. Hosted live.",
     ForecastIQGithub: "https://github.com/Bakhshish987/forecastiq",
-    ForecastIQWebsite: "https://forecastiq.streamlit.app",
+    ForecastIQWebsite: "https://forecastiq-v2.streamlit.app/",
 
     AlignIQDesc: "A resume–job description matcher using TF-IDF and cosine similarity. It shows skill alignment scores and feedback in real time using a Streamlit-based front end.",
     AlignIQGithub: "https://github.com/Bakhshish987/aligniq",
-    AlignIQWebsite: "https://aligniq-v2.streamlit.app",
+    AlignIQWebsite: "https://aligniq-v2.streamlit.app/",
 
     TrustIQDesc: "A fake review detection app built using XGBoost, SMOTE, and SHAP. It flags suspicious reviews and explains predictions visually using SHAP interpretability.",
-    TrustIQGithub: "https://github.com/Bakhshish987/trustguard",
-    TrustIQWebsite: "https://trustguard.streamlit.app",
+    TrustIQGithub: "https://github.com/Bakhshish987/trustiq",
+    TrustIQWebsite: "https://trustiq-v2.streamlit.app/",
 
     RevenueDashboardDesc: "An interactive Tableau dashboard showing revenue, net earnings, and trends. It includes monthly highlights & YoY insights.",
     RevenueDashboardGithub: "",
-    RevenueDashboardWebsite: "https://public.tableau.com/app/profile/bakhshish.sethi/viz/RevenueNetEarningsDashboard2023",
+    RevenueDashboardWebsite: "https://public.tableau.com/shared/6PPNYHHG6?:display_count=n&:origin=viz_share_link",
 
     Infinity2Desc: "A data-driven live stock portfolio built on research, factor models, and macro analysis. This real-money $10K+ portfolio is managed using technical and quant tools.",
     Infinity2Github: "",
-    Infinity2Website: "https://docs.google.com/spreadsheets/d/1wZdq4eWcVjC5UgUevMuR8zWISwHjx7N9m3lmM1x-6cs/edit?usp=sharing",
+    Infinity2Website: "https://drive.google.com/file/d/1nszpNkFkwJVMPxtzTSz_FYadzVyhDSVt/view",
 
     TorontoRentalInsightsDesc: "A data-driven case study exploring rental prices and affordability trends in Toronto. Visualized using Tableau with maps and filters for property type.",
     TorontoRentalInsightsGithub: "https://github.com/Bakhshish987/toronto-rental-dashboard",
-    TorontoRentalInsightsWebsite: "https://public.tableau.com/app/profile/bakhshish.sethi/viz/TorontoRentalInsightsDashboard",
+    TorontoRentalInsightsWebsite: "https://public.tableau.com/views/RealIQ/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
 
     FraudDetectionDesc: "A classification project using XGBoost to detect fraudulent credit card transactions. Includes precision-focused evaluation.",
-    FraudDetectionGithub: "https://github.com/Bakhshish987/fraud-detection",
-    FraudDetectionWebsite: "https://fraud-detection.streamlit.app",
+    FraudDetectionGithub: "https://github.com/Bakhshish987/fraud-detection-ml",
+    FraudDetectionWebsite: "",
 
     HousePricePredictorDesc: "A linear and lasso regression model for predicting housing prices based on multiple features. Shows model metrics and residuals interactively.",
-    HousePricePredictorGithub: "https://github.com/Bakhshish987/house-price-regression",
-    HousePricePredictorWebsite: "https://house-price-app.streamlit.app"
+    HousePricePredictorGithub: "https://github.com/Bakhshish987/regression-ml",
+    HousePricePredictorWebsite: ""
   };
 
   let show = '';
