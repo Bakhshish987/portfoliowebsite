@@ -14,7 +14,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     TrustIQ: "TrustIQ",
     RevenueDashboard: "Revenue & Earnings Dashboard",
     Infinity2: "Infinity 50 Portfolio",
-    TorontoRentalInsights: "Toronto Rental Market Case Study",
+    TorontoRentalInsights: "Toronto Rental Insights",
     FraudDetection: "Credit Card Fraud Detection",
     HousePricePredictor: "House Price Prediction (Lasso)"
   };
@@ -36,7 +36,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     WigglesGithub: "https://github.com/DevanshSahni/Wiggles",
     WigglesWebsite: "https://wiggles.vercel.app/",
 
-    ForecastIQDesc: "A real-time stock price prediction tool using live Yahoo Finance data & Facebook Prophet model for time series forecasting. Built with Streamlit and hosted live.",
+    ForecastIQDesc: "A real-time stock price prediction tool using live Yahoo Finance data & Facebook Prophet model for time series forecasting. Hosted live.",
     ForecastIQGithub: "https://github.com/Bakhshish987/forecastiq",
     ForecastIQWebsite: "https://forecastiq.streamlit.app",
 
