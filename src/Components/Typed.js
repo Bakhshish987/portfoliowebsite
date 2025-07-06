@@ -8,8 +8,9 @@ const Typed = () => {
         options={{
           strings: [
             'Data Analyst',
+            'Business Analyst'
             'Data Scientist',
-            'ML Developer'
+            'Machine Learning Developer'
           ],
           autoStart: true,
           loop: true,
