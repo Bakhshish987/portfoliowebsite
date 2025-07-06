@@ -20,8 +20,8 @@ const Projects = () => {
         <ProjectBox projectPhoto={Infinity2} projectName="Infinity2" />
         <ProjectBox projectPhoto={AlignIQNew} projectName="AlignIQ" />
         <ProjectBox projectPhoto={Dashboard3} projectName="RevenueDashboard" />
-        <ProjectBox projectPhoto={frauddetection} projectName="Tindog" />
-        <ProjectBox projectPhoto={houseprice} projectName="Tindog" />
+        <ProjectBox projectPhoto={frauddetection} projectName="FraudDetection" />
+        <ProjectBox projectPhoto={houseprice} projectName="HousePricePredictor" />
       </div>
 
     </div>
