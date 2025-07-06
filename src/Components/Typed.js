@@ -10,7 +10,7 @@ const Typed = () => {
             'Data Analyst',
             'Business Analyst',
             'Data Scientist',
-            'Machine Learning Developer'
+            'ML Developer'
           ],
           autoStart: true,
           loop: true,
