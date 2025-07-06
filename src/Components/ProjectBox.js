@@ -51,14 +51,17 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     RevenueDashboardDesc: "An interactive Tableau dashboard showing revenue, net earnings, and trends. It includes monthly highlights & YoY insights.",
     RevenueDashboardGithub: "",
     RevenueDashboardWebsite: "https://public.tableau.com/shared/6PPNYHHG6?:display_count=n&:origin=viz_share_link",
+    RevenueDashboardLabel: "Dashboard",
 
     Infinity2Desc: "A data-driven live stock portfolio built on research, factor models, and macro analysis. This real-money $10K+ portfolio is managed using technical and quant tools.",
     Infinity2Github: "",
     Infinity2Website: "https://drive.google.com/file/d/1nszpNkFkwJVMPxtzTSz_FYadzVyhDSVt/view",
+    Infinity2Label: "Presentation",
 
     TorontoRentalInsightsDesc: "A data-driven case study exploring rental prices and affordability trends in Toronto. Visualized using Tableau with maps and filters for property type.",
     TorontoRentalInsightsGithub: "https://github.com/Bakhshish987/toronto-rental-dashboard",
     TorontoRentalInsightsWebsite: "https://public.tableau.com/views/RealIQ/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+    TorontoRentalInsightsLabel: "Dashboard",
 
     FraudDetectionDesc: "A classification project using XGBoost to detect fraudulent credit card transactions. Includes precision-focused evaluation.",
     FraudDetectionGithub: "https://github.com/Bakhshish987/fraud-detection-ml",
@@ -72,6 +75,11 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
   let show = '';
   if (desc[projectName + 'Github'] === "") {
     show = "none";
+  }
+
+  let showWebsite = '';
+  if (desc[projectName + 'Website'] === "") {
+    showWebsite = "none";
   }
 
   return (
@@ -88,8 +96,8 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
           <button className='projectbtn'><FaGithub /> Github</button>
         </a>
 
-        <a href={desc[projectName + 'Website']} target='_blank'>
-          <button className='projectbtn'><CgFileDocument /> Demo</button>
+        <a style={{ display: showWebsite }} href={desc[projectName + 'Website']} target='_blank'>
+          <button className='projectbtn'><CgFileDocument /> {desc[projectName + 'Label'] || "Demo"}</button>
         </a>
       </div>
     </div>
