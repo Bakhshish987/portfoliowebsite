@@ -40,7 +40,6 @@ const About = () => {
         <Skills skill='Excel' />
         <Skills skill='Streamlit' />
         <Skills skill='Git' />
-        <Skills skill='GitHub' />
         <Skills skill='Vercel' />
         <Skills skill='AWS' />
       </div>
