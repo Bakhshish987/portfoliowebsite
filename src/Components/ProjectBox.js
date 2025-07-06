@@ -60,7 +60,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     TorontoRentalInsightsGithub: "https://github.com/Bakhshish987/toronto-rental-dashboard",
     TorontoRentalInsightsWebsite: "https://public.tableau.com/app/profile/bakhshish.sethi/viz/TorontoRentalInsightsDashboard",
 
-    FraudDetectionDesc: "A classification project using XGBoost to detect fraudulent credit card transactions. Includes SMOTE, feature scaling, and precision-focused evaluation.",
+    FraudDetectionDesc: "A classification project using XGBoost to detect fraudulent credit card transactions. Includes precision-focused evaluation.",
     FraudDetectionGithub: "https://github.com/Bakhshish987/fraud-detection",
     FraudDetectionWebsite: "https://fraud-detection.streamlit.app",
 
