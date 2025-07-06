@@ -10,7 +10,9 @@ import {
   SiVercel,
   SiJupyter,
   SiPytorch,
-  SiR
+  SiR,
+  SiPowerbi,
+  SiGooglecloud
 } from "react-icons/si";
 
 const Skills = ({ skill }) => {
@@ -29,6 +31,8 @@ const Skills = ({ skill }) => {
     'Jupyter': <SiJupyter />,
     'PyTorch': <SiPytorch />,
     'R': <SiR />
+    'GCP': <SiGooglecloud />
+    'Power BI': <SiPowerbi />
   };
 
   return (
