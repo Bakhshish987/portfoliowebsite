@@ -39,7 +39,7 @@ const About = () => {
         <Skills skill='Tableau' />
         <Skills skill='Excel' />
         <Skills skill='PyTorch' />
-        <Skills skill='PyTorch' />
+        <Skills skill='R' />
         <Skills skill='Jupyter' />
         <Skills skill='Streamlit' />
         <Skills skill='Git' />
