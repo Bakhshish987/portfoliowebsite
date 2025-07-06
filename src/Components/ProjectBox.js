@@ -62,6 +62,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     TorontoRentalInsightsGithub: "https://github.com/Bakhshish987/toronto-rental-dashboard",
     TorontoRentalInsightsWebsite: "https://public.tableau.com/views/RealIQ/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
     TorontoRentalInsightsLabel: "Dashboard",
+    TorontoRentalInsightsGithubLabel: "Presentation",
 
     FraudDetectionDesc: "A classification project using XGBoost to detect fraudulent credit card transactions. Includes precision-focused evaluation.",
     FraudDetectionGithub: "https://github.com/Bakhshish987/fraud-detection-ml",
@@ -93,11 +94,15 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
         <br />
 
         <a style={{ display: show }} href={desc[projectName + 'Github']} target='_blank'>
-          <button className='projectbtn'><FaGithub /> Github</button>
+          <button className='projectbtn'>
+            <FaGithub /> {desc[projectName + 'GithubLabel'] || "Github"}
+          </button>
         </a>
 
         <a style={{ display: showWebsite }} href={desc[projectName + 'Website']} target='_blank'>
-          <button className='projectbtn'><CgFileDocument /> {desc[projectName + 'Label'] || "Demo"}</button>
+          <button className='projectbtn'>
+            <CgFileDocument /> {desc[projectName + 'Label'] || "Demo"}
+          </button>
         </a>
       </div>
     </div>
