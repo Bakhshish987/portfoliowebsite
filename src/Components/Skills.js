@@ -1,38 +1,26 @@
-import React from 'react'; 
-import { CgCPlusPlus } from "react-icons/cg";
-import { FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap, FaTable } from "react-icons/fa";
-import { DiNodejs, DiJavascript1 } from "react-icons/di";
-import { SiExpress, SiMongodb, SiPostman, SiVercel, SiPandas, SiNumpy, SiScikitlearn, SiStreamlit, SiAmazonaws } from "react-icons/si";
+import React from 'react';
+import { FaPython, FaGitAlt, FaFileExcel, FaChartBar } from "react-icons/fa";
+import { SiPandas, SiNumpy, SiScikitlearn, SiStreamlit, SiAmazonaws, SiMysql, SiVercel } from "react-icons/si";
 
 const Skills = ({ skill }) => {
   const icon = {
-    'C++': <CgCPlusPlus />,
     'Python': <FaPython />,
     'Pandas': <SiPandas />,
     'NumPy': <SiNumpy />,
     'Scikit-learn': <SiScikitlearn />,
-    'SQL': <FaTable />,
-    'Tableau': <FaTable />,
-    'Excel': <FaTable />,
+    'MySQL': <SiMysql />,
+    'Tableau': <FaChartBar />,
+    'Excel': <FaFileExcel />,
     'Streamlit': <SiStreamlit />,
-    'AWS': <SiAmazonaws />,
-    'Postman': <SiPostman />,
-    'React': <FaReact />,
-    'Javascript': <DiJavascript1 />,
-    'Node': <DiNodejs />,
-    'Express': <SiExpress />,
-    'MongoDb': <SiMongodb />,
     'Git': <FaGitAlt />,
-    'Github': <FaGithub />,
-    'Npm': <FaNpm />,
-    'Figma': <FaFigma />,
-    'Bootstrap': <FaBootstrap />,
-    'Vercel': <SiVercel />
+    'Vercel': <SiVercel />,
+    'AWS': <SiAmazonaws />
   };
 
   return (
-    <div title={skill} className='SkillBox'>
-      {icon[skill] || <span>{skill}</span>}
+    <div title={skill} className='SkillBox' style={{ textAlign: 'center', margin: '10px' }}>
+      <div style={{ fontSize: '2rem' }}>{icon[skill] || <span>{skill}</span>}</div>
+      <div style={{ fontSize: '0.8rem', marginTop: '5px' }}>{skill}</div>
     </div>
   );
 };
