@@ -11,7 +11,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     Wiggles: "Wiggles",
     ForecastIQ: "ForecastIQ",
     AlignIQ: "AlignIQ",
-    TrustIQ: "TrustGuard",
+    TrustIQ: "TrustIQ",
     RevenueDashboard: "Revenue & Earnings Dashboard",
     Infinity2: "Infinity 50 Portfolio",
     TorontoRentalInsights: "Toronto Rental Market Case Study",
@@ -45,8 +45,8 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     AlignIQWebsite: "https://aligniq-v2.streamlit.app",
 
     TrustIQDesc: "A fake review detection app built using XGBoost, SMOTE, and SHAP. It flags suspicious reviews and explains predictions visually using SHAP interpretability.",
-    TrustGuardGithub: "https://github.com/Bakhshish987/trustguard",
-    TrustGuardWebsite: "https://trustguard.streamlit.app",
+    TrustIQGithub: "https://github.com/Bakhshish987/trustguard",
+    TrustIQWebsite: "https://trustguard.streamlit.app",
 
     RevenueDashboardDesc: "An interactive Tableau dashboard showing revenue, net earnings, and trends. It includes monthly highlights & YoY insights.",
     RevenueDashboardGithub: "",
