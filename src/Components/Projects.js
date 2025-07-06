@@ -15,10 +15,10 @@ const Projects = () => {
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
         <ProjectBox projectPhoto={TorontoReal} projectName="Wiggles" />
-        <ProjectBox projectPhoto={ForecastIQNew} projectName="Wiggles" />
-        <ProjectBox projectPhoto={TrustIQNew} projectName="RogFree" />
+        <ProjectBox projectPhoto={ForecastIQNew} projectName="ForecastIQ" />
+        <ProjectBox projectPhoto={TrustIQNew} projectName="TrustGuard" />
         <ProjectBox projectPhoto={Infinity2} projectName="Tindog" />
-        <ProjectBox projectPhoto={AlignIQNew} projectName="Tindog" />
+        <ProjectBox projectPhoto={AlignIQNew} projectName="AlignIQ" />
         <ProjectBox projectPhoto={Dashboard3} projectName="Tindog" />
         <ProjectBox projectPhoto={frauddetection} projectName="Tindog" />
         <ProjectBox projectPhoto={houseprice} projectName="Tindog" />
