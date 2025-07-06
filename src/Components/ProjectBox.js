@@ -5,6 +5,12 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
+
+    ForecastIQDesc : "Real-time stock price forecasting using live Yahoo Finance data. Used Facebook Prophet for time series forecasting & prediction.",
+    ForecastIQGithub : "github.com",
+    ForecastIQWebsite : "streamlit.com",
+    
+    
     TindogDesc : "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
     TindogGithub : "https://github.com/DevanshSahni/tindog",
     TindogWebsite : "https://devanshsahni.github.io/tindog/",
