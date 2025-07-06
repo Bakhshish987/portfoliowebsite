@@ -59,7 +59,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     Infinity2Label: "Presentation",
 
     TorontoRentalInsightsDesc: "A data-driven case study exploring rental prices and affordability trends in Toronto. Visualized using Tableau with maps and filters for property type.",
-    TorontoRentalInsightsGithub: "https://github.com/Bakhshish987/toronto-rental-dashboard",
+    TorontoRentalInsightsGithub: "https://drive.google.com/file/d/1Fy5zywa5X8Uf_PWjgK_I1DntvlygVM-x/view?usp=sharing",
     TorontoRentalInsightsWebsite: "https://public.tableau.com/views/RealIQ/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
     TorontoRentalInsightsLabel: "Dashboard",
     TorontoRentalInsightsGithubLabel: "Presentation",
