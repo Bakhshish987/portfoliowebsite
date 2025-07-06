@@ -6,6 +6,14 @@ import ForecastIQ from '../images/ForecastIQ.png';
 import RogfreeImage from '../images/RogfreeImage.png';
 import TindogImage from '../images/TindogImage.png';
 import WigglesImage from '../images/WigglesImage.png';
+import Dashboard2 from '../images/Dashboard2.png';
+import TorontoReal from '../images/TorontoReal.png';
+import Infinity50 from '../images/Infinity.png';
+import ForecastIQNew from '../images/ForecastIQNew.png';
+import AlignIQNew from '../images/AlignIQNew.png';
+import TrustIQNew from '../images/TrustIQNew.png';
+import frauddetection from '../images/frauddetection.png';
+import houseprice from '../images/houseprice.png';
 
 const Projects = () => {
   return (
