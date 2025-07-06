@@ -1,6 +1,16 @@
 import React from 'react';
 import { FaPython, FaGitAlt, FaFileExcel, FaChartBar } from "react-icons/fa";
-import { SiPandas, SiNumpy, SiScikitlearn, SiStreamlit, SiAmazonaws, SiMysql, SiVercel } from "react-icons/si";
+import {
+  SiPandas,
+  SiNumpy,
+  SiScikitlearn,
+  SiStreamlit,
+  SiAmazonaws,
+  SiMysql,
+  SiVercel,
+  SiJupyter,
+  SiPytorch
+} from "react-icons/si";
 
 const Skills = ({ skill }) => {
   const icon = {
@@ -14,7 +24,9 @@ const Skills = ({ skill }) => {
     'Streamlit': <SiStreamlit />,
     'Git': <FaGitAlt />,
     'Vercel': <SiVercel />,
-    'AWS': <SiAmazonaws />
+    'AWS': <SiAmazonaws />,
+    'Jupyter': <SiJupyter />,
+    'PyTorch': <SiPytorch />
   };
 
   return (
