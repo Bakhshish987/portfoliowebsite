@@ -20,10 +20,14 @@ const Projects = () => {
     <div>
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
-        <ProjectBox projectPhoto={Toronto} projectName="Wiggles" />
-        <ProjectBox projectPhoto={ForecastIQ} projectName="ForecastIQ" />
-        <ProjectBox projectPhoto={RogfreeImage} projectName="RogFree" />
-        <ProjectBox projectPhoto={TindogImage} projectName="Tindog" />
+        <ProjectBox projectPhoto={TorontoReal} projectName="Wiggles" />
+        <ProjectBox projectPhoto={ForecastIQNew} projectName="ForecastIQ" />
+        <ProjectBox projectPhoto={TrustIQNew} projectName="RogFree" />
+        <ProjectBox projectPhoto={Infinity50} projectName="Tindog" />
+        <ProjectBox projectPhoto={AlignIQNew} projectName="Tindog" />
+        <ProjectBox projectPhoto={Dashboard2} projectName="Tindog" />
+        <ProjectBox projectPhoto={frauddetection} projectName="Tindog" />
+        <ProjectBox projectPhoto={houseprice} projectName="Tindog" />
       </div>
 
     </div>
