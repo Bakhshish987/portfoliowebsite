@@ -14,12 +14,12 @@ const Projects = () => {
     <div>
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
-        <ProjectBox projectPhoto={TorontoReal} projectName="Wiggles" />
+        <ProjectBox projectPhoto={TorontoReal} projectName="TorontoRentalInsights" />
         <ProjectBox projectPhoto={ForecastIQNew} projectName="ForecastIQ" />
         <ProjectBox projectPhoto={TrustIQNew} projectName="TrustGuard" />
-        <ProjectBox projectPhoto={Infinity2} projectName="Tindog" />
+        <ProjectBox projectPhoto={Infinity2} projectName="Infinity2" />
         <ProjectBox projectPhoto={AlignIQNew} projectName="AlignIQ" />
-        <ProjectBox projectPhoto={Dashboard3} projectName="Tindog" />
+        <ProjectBox projectPhoto={Dashboard3} projectName="RevenueDashboard" />
         <ProjectBox projectPhoto={frauddetection} projectName="Tindog" />
         <ProjectBox projectPhoto={houseprice} projectName="Tindog" />
       </div>
