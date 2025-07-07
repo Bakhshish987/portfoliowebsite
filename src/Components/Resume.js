@@ -19,15 +19,16 @@ const Resume = () => {
 
   return (
     <div className='ResumePage'>
-      <Document file={pdf} className="resumeview">
-          <Page pageNumber= {1} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
-      </Document>
 
       <a href={pdf} target='_blank' download="bakhshish_sethi_resume">
         <button className='downloadCV' type='button'>
           <h3><BsDownload/>&nbsp; Download CV</h3>
         </button>
       </a>
+    
+      <Document file={pdf} className="resumeview">
+          <Page pageNumber= {1} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
+      </Document>
 
     </div>
   )
